@@ -28,7 +28,9 @@
             //verifica validità mail
             if(filter_var($email, FILTER_VALIDATE_EMAIL)){
 
-
+                //inserimento email in db
+                $stmt = $db->prepare('INSERT INTO Emails (email) VALUES (?)');
+                $stmt->execute([$email]);
                 
             }
         }
