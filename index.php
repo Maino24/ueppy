@@ -90,4 +90,10 @@
 </body>
 </html>
 
+<!-- 
+    MIGLIORAMENTI / OTTIMIZZAZIONI
 
+    cambierei il colore della mail inserita in bianco in modo che sia più leggibile;
+    ho inserito il pulsante invia perchè credo sia più pratico rispetto all'invio automatico dopo un certo numero di secondi (es. devo controllare che la mail che ho scritto sia giusta e prima che l'ho trovata è già stata inviata quella sbagliata).
+
+-->
