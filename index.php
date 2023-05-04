@@ -16,7 +16,6 @@
         }
      .background {   
         background: white;
-        
         padding: 1% 6%;
         border: 2px solid black;
         border-radius: 10px;
@@ -31,7 +30,12 @@
     #backgroundInput{
         background: rgb(85,85,85);
         height: 30px;
-        width: 250px;
+        width: 190px;
+        border-radius: 10px;
+    }
+    #invio{
+        height: 30px;
+        width: 60px;
         border-radius: 10px;
     }
     #formato{
@@ -51,7 +55,7 @@
             </div>
             <div class="richiesta">
                 <input id="backgroundInput" type="email" name="email" required>
-                <input type="submit" value="Invia">
+                <input id="invio" type="submit" value="Invia">
             </div>
             <div id="formato">formato mail: mar@example.com</div>
         </form>
