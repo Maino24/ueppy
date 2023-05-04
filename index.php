@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form di registrazione</title>
     <style type="text/css">
     body{
         background: rgb(85,85,85); 
@@ -74,8 +74,13 @@
                 $stmt = $db->prepare('INSERT INTO Emails (email) VALUES (?)');
                 $stmt->execute([$email]);
                 
+            }else{
+                echo "<p style='color:red'>L'email inserita non è valida.</p>";
             }
         }
+
+        //chiusura db
+        $db = null;
 
     ?>
 </body>
