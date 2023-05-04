@@ -25,7 +25,12 @@
         if($_SERVER["REQUEST_METHOD"]== "POST"){
             $email = $_POST["email"];
 
-           
+            //verifica validità mail
+            if(filter_var($email, FILTER_VALIDATE_EMAIL)){
+
+
+                
+            }
         }
 
     ?>
