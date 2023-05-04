@@ -8,6 +8,9 @@
     <title>Document</title>
 </head>
 <body>
+
+    <h1>Form di registrazione</h1>
+
     <form method="post" action="">
         <label for="">Email:</label>
         <input type="email" name="email" required>
